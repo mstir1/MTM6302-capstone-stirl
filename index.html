@@ -29,105 +29,30 @@
       <a href="#" class="menu-link">Gen 9</a>
     </div>
 
-    <div class="grid-container">
-        <div class="grid-item">
-          <img src="images/Poké_Ball_icon.svg.png" alt="Image 1">
-          <p>Pokemon discription: Lorem
-            ipsum dolor sit amet, consectetuer
-            adipiscing elit, sed diam
-            nonummy nibh euismod tincidunt
-            ut laoreet dolore magna aliquam
-            erat volutpat. Ut wisi enim
-            ad minim veniam, quis nostrud
-            exerci tation ullamcorper suscipit
-            lobortis nisl ut aliquip ex ea</p>
-        </div>
-        <div class="grid-item">
-            <img src="images/Poké_Ball_icon.svg.png" alt="Image 1">
-            <p>Pokemon discription: Lorem
-            ipsum dolor sit amet, consectetuer
-            adipiscing elit, sed diam
-            nonummy nibh euismod tincidunt
-            ut laoreet dolore magna aliquam
-            erat volutpat. Ut wisi enim
-            ad minim veniam, quis nostrud
-            exerci tation ullamcorper suscipit
-            lobortis nisl ut aliquip ex ea</p>
-        </div>
-        <div class="grid-item">
-            <img src="images/Poké_Ball_icon.svg.png" alt="Image 1">
-            <p>Pokemon discription: Lorem
-            ipsum dolor sit amet, consectetuer
-            adipiscing elit, sed diam
-            nonummy nibh euismod tincidunt
-            ut laoreet dolore magna aliquam
-            erat volutpat. Ut wisi enim
-            ad minim veniam, quis nostrud
-            exerci tation ullamcorper suscipit
-            lobortis nisl ut aliquip ex ea</p>
-        </div>
-        <div class="grid-item">
-            <img src="images/Poké_Ball_icon.svg.png" alt="Image 1">
-            <p>Pokemon discription: Lorem
-            ipsum dolor sit amet, consectetuer
-            adipiscing elit, sed diam
-            nonummy nibh euismod tincidunt
-            ut laoreet dolore magna aliquam
-            erat volutpat. Ut wisi enim
-            ad minim veniam, quis nostrud
-            exerci tation ullamcorper suscipit
-            lobortis nisl ut aliquip ex ea</p>
-        </div>
-        <div class="grid-item">
-            <img src="images/Poké_Ball_icon.svg.png" alt="Image 1">
-            <p>Pokemon discription: Lorem
-            ipsum dolor sit amet, consectetuer
-            adipiscing elit, sed diam
-            nonummy nibh euismod tincidunt
-            ut laoreet dolore magna aliquam
-            erat volutpat. Ut wisi enim
-            ad minim veniam, quis nostrud
-            exerci tation ullamcorper suscipit
-            lobortis nisl ut aliquip ex ea</p>
-        </div>
-        <div class="grid-item">
-            <img src="images/Poké_Ball_icon.svg.png" alt="Image 1">
-            <p>Pokemon discription: Lorem
-            ipsum dolor sit amet, consectetuer
-            adipiscing elit, sed diam
-            nonummy nibh euismod tincidunt
-            ut laoreet dolore magna aliquam
-            erat volutpat. Ut wisi enim
-            ad minim veniam, quis nostrud
-            exerci tation ullamcorper suscipit
-            lobortis nisl ut aliquip ex ea</p>
-        </div>
-        <div class="grid-item">
-            <img src="images/Poké_Ball_icon.svg.png" alt="Image 1">
-            <p>Pokemon discription: Lorem
-            ipsum dolor sit amet, consectetuer
-            adipiscing elit, sed diam
-            nonummy nibh euismod tincidunt
-            ut laoreet dolore magna aliquam
-            erat volutpat. Ut wisi enim
-            ad minim veniam, quis nostrud
-            exerci tation ullamcorper suscipit
-            lobortis nisl ut aliquip ex ea</p>
-        </div>
-        <div class="grid-item">
-            <img src="images/Poké_Ball_icon.svg.png" alt="Image 1">
-            <p>Pokemon discription: Lorem
-            ipsum dolor sit amet, consectetuer
-            adipiscing elit, sed diam
-            nonummy nibh euismod tincidunt
-            ut laoreet dolore magna aliquam
-            erat volutpat. Ut wisi enim
-            ad minim veniam, quis nostrud
-            exerci tation ullamcorper suscipit
-            lobortis nisl ut aliquip ex ea</p>
-        </div>
-      </div>
-
+    <style>
+        /* Add your CSS styles here */
+        .grid-container {
+          display: grid;
+          grid-template-columns: repeat(4, 1fr); /* 4 columns */
+          gap: 10px; /* Adjust gap as needed */
+        }
+        .entry-box {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          border: 1px solid #ccc;
+          padding: 10px;
+        }
+        .sprits img {
+          width: 80px; /* Adjust size as needed */
+          height: auto;
+          margin-bottom: 5px;
+        }
+        /* Add more styles as needed */
+      </style>
+    </head>
+    <body>
+      <div class="grid-container" id="entries"></div>
     <script src="main.js"></script>
 </body>
 </html>
